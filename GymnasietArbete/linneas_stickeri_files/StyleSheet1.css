@@ -1,0 +1,155 @@
+﻿html {
+    /*background: url("vackra mig.jpg");
+    background-size: 50%;*/
+    /*background-position: top;
+    background-repeat: no-repeat;*/
+    background-attachment: fixed;
+}
+
+body
+{
+    
+    /*width: 70%;*/
+    width: 960px;
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+#wrapperheader {
+    height: 180px;
+}
+#logga {
+    position: absolute;
+    top: 25px;
+    padding-left: 53px;
+}
+    #logga img {
+        width: 210px;
+    }
+
+#block {
+    position: absolute;
+    width: 75%;
+    height: 20px;
+    top: 60px;
+}
+
+nav {
+    /*height: 0;
+    right: 20px;
+    padding-right: 100px;*/
+    padding-top: 20px;
+}
+    nav a {
+        color: rgb(128, 128, 128);
+        text-decoration: none;
+        transition: 0.15s;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+/*gör så att den i .active visas hela tiden*/
+nav .active ul ul {
+    display: inline-block;
+}
+
+nav ul ul {
+    display: none;
+}
+    
+    
+        /*nav ul:hover ul {
+            display: inline-block;
+        }*/
+
+.menu:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1.00);
+    padding-bottom: 0px;
+    color:black;
+}
+    .menu:hover a {
+        color: black;
+    }
+    /*.menu:hover ul {
+        display: inline-block;
+        position: absolute;
+        margin-left: -100px;
+    }
+    .menu:hover + #block {
+        height: 0;
+    }*/
+#menu {
+    text-align: center;
+    color: black;
+    height: 28px;
+    overflow: visible;
+}
+
+.menu {
+    transition: ease-in-out 0.15s;
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 15px;
+}
+
+#active {
+    border-bottom: solid 3px #3affff;
+    padding-bottom: 0px;
+    color: black;
+}
+    #active a {
+        color:black;
+    }
+
+#content {
+    
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    width: 400px;
+}
+
+#product {
+    padding-left: 460px;
+    position: absolute;
+}
+
+#img img {
+    width: 400px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    /*width: 70%;*/
+    width: 900px;
+    min-width: 900px;
+}
+#kontakt {
+    text-align: right;
+    position: relative;
+    float: right;
+    margin: 0;
+}
+
+#ffb {
+    float: right;
+    position: relative;
+    top: -50px;
+    padding-right: 7%;    
+}
+
+#blå {
+     transition: 0.3s;
+     position: absolute;
+     opacity: 1;
+}
+#blå:hover {
+    opacity: 0;
+}
