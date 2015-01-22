@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="halsdukar.html" />
     <Content Include="linneas_stickeri_files\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -66,7 +67,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="linneas stickeri.html" />
+    <Content Include="linneas_stickeri.html" />
     <Content Include="linneas_stickeri_files\favicon.ico" />
     <Content Include="linneas_stickeri_files\FB_FindUsOnFacebook-114 bw.png" />
     <Content Include="linneas_stickeri_files\FB_FindUsOnFacebook-114 cyan.png" />
@@ -75,7 +76,7 @@
     <Content Include="linneas_stickeri_files\logga 2 gammal.png" />
     <Content Include="linneas_stickeri_files\logga 2_text i o fet o ram.png" />
     <Content Include="linneas_stickeri_files\logga.png" />
-    <Content Include="linneas_stickeri_files\StyleSheet1.css" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="linneas_stickeri_files\text utan stickor.png" />
     <Content Include="linneas_stickeri_files\vackra mig.jpg" />
     <Content Include="order.html" />
