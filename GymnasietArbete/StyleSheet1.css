@@ -120,8 +120,17 @@ p {
     position: absolute;
 }
 
-#bild img {
+#bilder {
+    margin-left: 50px;
+}
+#bilder img {
     width: 400px;
+}
+#left {
+    
+}
+#right {
+    right: 30px;
 }
 
 #footer {
