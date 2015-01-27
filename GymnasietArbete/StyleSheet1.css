@@ -120,10 +120,13 @@ p {
     position: absolute;
 }
 
-#bilder {
+#galleri {
     margin-left: 50px;
 }
-#bilder img {
+#galleri img {
+    width: 400px;
+}
+#bild img {
     width: 400px;
 }
 #left {
@@ -134,7 +137,7 @@ p {
 }
 
 #footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     /*width: 70%;*/
     width: 900px;
