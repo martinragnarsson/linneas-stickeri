@@ -58,6 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="halsdukar.html" />
+    <Content Include="linneas_stickeri_files\10383817_942766465750858_7031712086320602630_o.jpg" />
+    <Content Include="linneas_stickeri_files\10847744_960633030630868_7350202632996250463_o.jpg" />
+    <Content Include="linneas_stickeri_files\10848642_960633027297535_6085261585548598115_o.jpg" />
+    <Content Include="linneas_stickeri_files\1617123_960633023964202_761237504315495425_o.jpg" />
     <Content Include="linneas_stickeri_files\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
