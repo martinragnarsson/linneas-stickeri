@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="login.html" />
+    <Content Include="sign_up.html" />
     <Content Include="halsdukar.html" />
     <Content Include="linneas_stickeri_files\10383817_942766465750858_7031712086320602630_o.jpg" />
     <Content Include="linneas_stickeri_files\10847744_960633030630868_7350202632996250463_o.jpg" />
@@ -80,6 +82,8 @@
     <Content Include="linneas_stickeri_files\logga 2 gammal.png" />
     <Content Include="linneas_stickeri_files\logga 2_text i o fet o ram.png" />
     <Content Include="linneas_stickeri_files\logga.png" />
+    <Content Include="varukorg - Copy.html" />
+    <Content Include="enskild produkt.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="linneas_stickeri_files\text utan stickor.png" />
     <Content Include="linneas_stickeri_files\vackra mig.jpg" />
