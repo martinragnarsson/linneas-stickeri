@@ -165,3 +165,7 @@ p {
 #blå:hover {
     opacity: 0;
 }
+
+#signup {
+    margin: 0 auto;
+}
