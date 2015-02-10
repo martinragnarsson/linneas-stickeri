@@ -168,4 +168,16 @@ p {
 
 #signup {
     margin: 0 auto;
+    width: 390px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:block;
+}
+.tf {
+    float:left;
+    margin-right:20px;
+}
+#Submit1 {
+    margin-top: 17px;
+    margin-bottom: 20px;
+    width: 173px;
 }
