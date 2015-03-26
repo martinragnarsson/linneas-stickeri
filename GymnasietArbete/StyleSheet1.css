@@ -196,6 +196,15 @@ p {
     height: 250px;
     border: 2px solid rgb(58, 255, 255);
     border-radius: 10px;
-    
-
+}
+.product img {
+    width: 230px;
+    margin: 10px;
+}
+.prodinfo {
+    font-family: 'Franklin Gothic Narrow', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+.pris {
+    margin-left: 10px;
 }
