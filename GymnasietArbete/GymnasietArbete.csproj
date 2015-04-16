@@ -57,9 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="linneas_stickeri_files\addcart.png" />
+    <Content Include="linneas_stickeri_files\cart.png" />
     <Content Include="linneas_stickeri_files\products mockup.png" />
+    <Content Include="linneas_stickeri_files\varukorg-150x150.jpg" />
     <Content Include="login.html" />
-    <Content Include="products_test.html" />
     <Content Include="sign_up.html" />
     <Content Include="products.html" />
     <Content Include="linneas_stickeri_files\10383817_942766465750858_7031712086320602630_o.jpg" />

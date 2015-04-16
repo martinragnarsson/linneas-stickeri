@@ -193,18 +193,37 @@ p {
     float: left;
     margin: 20px;
     width: 250px;
-    height: 250px;
+    height: /*270px*/;
     border: 2px solid rgb(58, 255, 255);
-    border-radius: 10px;
+    border-radius: 80px 20px 5px 5px;
 }
 .product img {
     width: 230px;
     margin: 10px;
+    border-radius: 70px 10px 0px 0;
 }
 .prodinfo {
     font-family: 'Franklin Gothic Narrow', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 10px;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    width: 230px;
 }
 .pris {
     margin-left: 10px;
+    font-family: 'Franklin Gothic Heavy', 'Arial', 'Arial', sans-serif;
+    
+}
+
+.prodimg {
+    border-radius: 10px;
+    background: url(linneas_stickeri_files/garn.jpg);
+    width: 230px;
+    background-size: 230px;
+    padding-left: 10px;
+}
+
+#AddCart {
+    width: 40px;
+    float: right;
+    margin: -40px 10px 0 0;
 }
