@@ -194,8 +194,13 @@ p {
     margin: 20px;
     width: 250px;
     height: /*270px*/;
-    border: 2px solid rgb(58, 255, 255);
+    border: 3px solid rgba(58, 255, 255, 0);
     border-radius: 80px 20px 5px 5px;
+    transition: 0.5s;
+}
+.product:hover {
+    border-color: rgb(58, 255, 255);
+    transition: 0.5s;
 }
 .product img {
     width: 230px;
@@ -213,7 +218,6 @@ p {
     font-family: 'Franklin Gothic Heavy', 'Arial', 'Arial', sans-serif;
     
 }
-
 .prodimg {
     border-radius: 10px;
     background: url(linneas_stickeri_files/garn.jpg);
