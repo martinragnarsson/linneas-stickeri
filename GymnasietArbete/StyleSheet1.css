@@ -1,14 +1,9 @@
 ﻿html {
-    /*background: url("vackra mig.jpg");
-    background-size: 50%;*/
-    /*background-position: top;
-    background-repeat: no-repeat;*/
-    background-attachment: fixed;
+    
 }
 
 body
 {
-    
     /*width: 70%;*/
     width: 960px;
     min-width: 900px;
@@ -183,7 +178,6 @@ p {
 }
 
 /*products*/
-
 #products {
     margin: 0 auto;
     width: 900px;
@@ -193,7 +187,7 @@ p {
     float: left;
     margin: 20px;
     width: 250px;
-    height: /*270px*/;
+    /*height: 270px*/;
     border: 3px solid rgba(58, 255, 255, 0);
     border-radius: 80px 20px 5px 5px;
     transition: 0.5s;
@@ -207,18 +201,18 @@ p {
     margin: 10px;
     border-radius: 70px 10px 0px 0;
 }
-.prodinfo {
+.product .prodinfo {
     font-family: 'Franklin Gothic Narrow', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     margin: 0 0 0 10px;
     width: 230px;
 }
-.pris {
+.product .pris {
     margin-left: 10px;
     font-family: 'Franklin Gothic Heavy', 'Arial', 'Arial', sans-serif;
     
 }
-.prodimg {
+.product .prodimg {
     border-radius: 10px;
     background: url(linneas_stickeri_files/garn.jpg);
     width: 230px;
@@ -226,8 +220,30 @@ p {
     padding-left: 10px;
 }
 
-#AddCart {
+.product #AddCart {
     width: 40px;
     float: right;
     margin: -40px 10px 0 0;
+}
+
+
+/*SingleProduct*/
+.SingleProduct {
+    margin: 0 auto;
+}
+.SingleProduct img {
+    width: 450px;
+    float: left;
+    margin-right: 20px;
+}
+
+.SingleProduct .prodinfo {
+    float: left;
+}
+.SingleProduct .pris {
+    float: left;
+    font-size: 30px;
+}
+.SingleProduct #AddCart {
+    width: 80px;
 }
